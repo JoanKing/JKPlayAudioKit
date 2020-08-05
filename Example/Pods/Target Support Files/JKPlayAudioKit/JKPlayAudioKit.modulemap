@@ -1,0 +1,6 @@
+framework module JKPlayAudioKit {
+  umbrella header "JKPlayAudioKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

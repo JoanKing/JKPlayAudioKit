@@ -1,0 +1,14 @@
+//
+//  JK.pch
+//  JKPlayAudioKit
+//
+//  Created by 王冲 on 2020/8/5.
+//  Copyright © 2020 JoanKing. All rights reserved.
+//
+
+#ifndef JK_pch
+#define JK_pch
+
+#import "SVProgressHUD.h"
+#import "JKPlayAudioKit.h"
+#endif /* JK_pch */
