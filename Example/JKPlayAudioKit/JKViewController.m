@@ -47,6 +47,11 @@
     }
     return _JKPlayAudioView;
 }
+- (IBAction)nextMusicClick:(UIButton *)sender {
+    
+     
+     [self.JKPlayAudioView setAudioMessage:tempArray[1] withIsPlay:YES];
+}
 
 
 @end

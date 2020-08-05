@@ -206,7 +206,7 @@
     
     [self addPlayNumber];
     self.currentPlayUrl = self.model.contentUrl;
-    [self.playAudio playerWithUrl:[NSURL URLWithString:self.model.contentUrl] isCache:YES];
+    [self.playAudio playerWithUrl:[NSURL URLWithString:self.model.contentUrl] isCache:NO];
 }
 
 #pragma mark 增加播放量
