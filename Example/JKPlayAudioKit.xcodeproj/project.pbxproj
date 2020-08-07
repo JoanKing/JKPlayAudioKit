@@ -262,6 +262,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = JoanKing;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G9AXN574QT;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -520,6 +523,7 @@
 			baseConfigurationReference = 2D653981BA64A1B3F94C06BE /* Pods-JKPlayAudioKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G9AXN574QT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JKPlayAudioKit/JKPlayAudioKit-Prefix.pch";
 				INFOPLIST_FILE = "JKPlayAudioKit/JKPlayAudioKit-Info.plist";
@@ -536,6 +540,7 @@
 			baseConfigurationReference = 5D3EA0D999ECBF30B1CC5CC7 /* Pods-JKPlayAudioKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G9AXN574QT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JKPlayAudioKit/JKPlayAudioKit-Prefix.pch";
 				INFOPLIST_FILE = "JKPlayAudioKit/JKPlayAudioKit-Info.plist";

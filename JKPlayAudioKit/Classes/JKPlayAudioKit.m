@@ -170,7 +170,7 @@ static dispatch_once_t onceToken2;
             if (self.totalTimeBlock) {
                 self.totalTimeBlock(self.totalTimeFormat);
             }
-            if (self.handleInterruptioBeforeStatus) {
+            if (self.currentAppStatus) {
                 return;
             }
             [self resume];
@@ -492,8 +492,8 @@ static dispatch_once_t onceToken2;
     self.currentAppStatus = YES;
     
     if (self.player && self.state == JKPlayerStatePlaying) {
-        [self pause];
         self.handleInterruptioBeforeStatus = YES;
+        [self pause];
     }
 }
 

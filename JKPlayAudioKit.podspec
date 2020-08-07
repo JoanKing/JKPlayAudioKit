@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKPlayAudioKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'OC的播放器'
   s.description      = '这是一个OC封装的音频播放器'
 
