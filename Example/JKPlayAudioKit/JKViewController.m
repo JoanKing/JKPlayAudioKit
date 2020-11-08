@@ -30,9 +30,10 @@
     
     
     NSArray *array = [[NSArray alloc]init];
-    NSString *file = [[NSBundle mainBundle]pathForResource:@"MusicList" ofType:@"plist"];
+    NSString *file = [[NSBundle mainBundle] pathForResource:@"MusicList" ofType:@"plist"];
     array = [NSMutableArray arrayWithContentsOfFile:file];
-    
+    // https://hzccwl.com/test/ce9a4d016d5d448c855117f7a20ad91d.wav
+    // 
     tempArray = [JKPlayAudioModel mj_objectArrayWithKeyValuesArray:array];
    
     [self.JKPlayAudioView setAudioMessage:tempArray[0] withIsPlay:NO];
