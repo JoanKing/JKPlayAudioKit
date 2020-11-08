@@ -16,6 +16,8 @@
 @interface JKViewController ()
 {
     NSArray *tempArray;
+    
+    int a;
 }
 ///最下面的播放器
 @property (nonatomic, strong) JKPlayAudioView *JKPlayAudioView;
@@ -27,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    a = 0;
     
     NSArray *array = [[NSArray alloc]init];
     NSString *file = [[NSBundle mainBundle] pathForResource:@"MusicList" ofType:@"plist"];
@@ -50,8 +52,11 @@
 }
 - (IBAction)nextMusicClick:(UIButton *)sender {
     
+     a = a + 1;
+    
+     NSLog(@"a = %d", a);
      
-     [self.JKPlayAudioView setAudioMessage:tempArray[1] withIsPlay:YES];
+     [self.JKPlayAudioView setAudioMessage:tempArray[a] withIsPlay:YES];
 }
 
 

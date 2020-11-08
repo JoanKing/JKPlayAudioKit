@@ -22,5 +22,35 @@
 		<key>itemNo</key>
 		<string>20190808期</string>
 	</dict>
+	<dict>
+		<key>contentUrl</key>
+		<string>https://hzccwl.com/test/ce9a4d016d5d448c855117f7a20ad91d.wav</string>
+		<key>coverImg</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1563882057476&amp;di=7b08e6a085220cfe5738b91c21666f71&amp;imgtype=0&amp;src=http%3A%2F%2Fphotocdn.sohu.com%2F20161026%2FImg471366264.jpg</string>
+		<key>itemTitle</key>
+		<string>测试1</string>
+		<key>itemNo</key>
+		<string>20190802期</string>
+	</dict>
+	<dict>
+		<key>contentUrl</key>
+		<string>http://play.ciotimes.com/DJT55.mp4</string>
+		<key>coverImg</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1563950986561&amp;di=a191b7c35787612c565d4aa7cad33cc9&amp;imgtype=0&amp;src=http%3A%2F%2Fwww.tongqugongfang.com%2Fuploads%2Fallimg%2F160427%2F1-16042G41I3J3.jpg</string>
+		<key>itemTitle</key>
+		<string>节日趴：聊聊新东方</string>
+		<key>itemNo</key>
+		<string>20190808期</string>
+	</dict>
+	<dict>
+		<key>contentUrl</key>
+		<string>https://hzccwl.com/test/ce9a4d016d5d448c855117f7a20ad91d.wav</string>
+		<key>coverImg</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1563882057476&amp;di=7b08e6a085220cfe5738b91c21666f71&amp;imgtype=0&amp;src=http%3A%2F%2Fphotocdn.sohu.com%2F20161026%2FImg471366264.jpg</string>
+		<key>itemTitle</key>
+		<string>测试2</string>
+		<key>itemNo</key>
+		<string>20190802期</string>
+	</dict>
 </array>
 </plist>
